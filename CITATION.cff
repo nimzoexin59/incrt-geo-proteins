@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+title: "INCRT-geo: Self-Architecting Protein Transformers"
+message: "If you use this software, please cite the associated paper (currently under review)."
+type: software
+authors:
+  - given-names: Giansalvo
+    family-names: Cirrincione
+    email: giansalvo.cirrincione@u-picardie.fr
+    affiliation: "Laboratoire LTI, Université de Picardie Jules Verne"
+    orcid: "https://orcid.org/0000-0002-2894-6691"
+  - given-names: Marta
+    family-names: Lovino
+    email: marta.lovino@unimore.it
+    affiliation: "Department of Engineering 'Enzo Ferrari', Università degli Studi di Modena e Reggio Emilia"
+repository-code: "https://github.com/exin-lti-upjv/incrt-geo-proteins"
+url: "https://github.com/exin-lti-upjv/incrt-geo-proteins"
+license: Apache-2.0
+preferred-citation:
+  type: article
+  title: "Self-Architecting Protein Transformers: An Empirical Study"
+  authors:
+    - given-names: Giansalvo
+      family-names: Cirrincione
+    - given-names: Marta
+      family-names: Lovino
+  journal: "Briefings in Bioinformatics"
+  year: 2026
+  notes: "Under review"

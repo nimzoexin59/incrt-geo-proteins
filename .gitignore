@@ -1,0 +1,75 @@
+# ─── Byte-compiled / optimized / DLL files ───────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ─── Distribution / packaging ────────────────────────────────
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ─── Virtual environments ────────────────────────────────────
+venv/
+env/
+ENV/
+.venv
+
+# ─── Jupyter ─────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ─── Trained models / checkpoints (use Zenodo for these) ─────
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.hdf5
+*.safetensors
+
+# ─── Datasets / large files ──────────────────────────────────
+data/raw/
+data/processed/
+*.fasta
+*.fa
+*.fa.gz
+*.fasta.gz
+*.tsv
+*.csv
+*.json
+!results/**/*.json   # do version-control evaluation summaries
+
+# ─── Logs ─────────────────────────────────────────────────────
+*.log
+logs/
+
+# ─── Editor / OS ──────────────────────────────────────────────
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# ─── Test / coverage ─────────────────────────────────────────
+.tox/
+.nox/
+.coverage
+htmlcov/
+.pytest_cache/
+
+# ─── PyTorch profiler / TensorBoard ─────────────────────────
+runs/
+events.out.tfevents.*
